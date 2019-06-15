@@ -691,11 +691,6 @@
 					"href": "page_contacts.html"
 				},
 				{
-					"title": "FAQ",
-					"showOnSeed": false,
-					"href": "page_faq.html"
-				},
-				{
 					"title": "Forum",
 					"href": "javascript:void(0);",
 					"items": [

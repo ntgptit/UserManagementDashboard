@@ -720,7 +720,7 @@
 		</ul>
 	</li>
 	<li class="nav-title">Layouts & Apps</li>
-	<li {{#is pagename "in" "page_chat,page_contacts,page_faq,page_invoice,page_profile,page_search,page_forum_list,page_forum_threads,page_forum_discussion,page_inbox_general,page_inbox_read,page_inbox_write,page_forget,page_locked,page_login,page_login-alt,page_register,page_confirmation,page_error,page_error_404,page_error_announced"}}class="active open" {{/is}}>
+	<li {{#is pagename "in" "page_chat,page_contacts,page_invoice,page_profile,page_search,page_forum_list,page_forum_threads,page_forum_discussion,page_inbox_general,page_inbox_read,page_inbox_write,page_forget,page_locked,page_login,page_login-alt,page_register,page_confirmation,page_error,page_error_404,page_error_announced"}}class="active open" {{/is}}>
 		<a href="#" title="Pages" data-filter-tags="pages">
 			<i class="fal fa-plus-circle"></i>
 			<span class="nav-link-text" data-i18n="nav.pages">Page Views</span>
@@ -734,11 +734,6 @@
 			<li {{#is pagename "===" "page_contacts"}}class="active" {{/is}}>
 				<a href="page_contacts.html" title="Contacts" data-filter-tags="pages contacts">
 					<span class="nav-link-text" data-i18n="nav.pages_contacts">Contacts</span>
-				</a>
-			</li>
-			<li {{#is pagename "===" "page_faq"}}class="active" {{/is}}>
-				<a href="page_faq.html" title="FAQ" data-filter-tags="pages faq">
-					<span class="nav-link-text" data-i18n="nav.pages_faq">FAQ</span>
 				</a>
 			</li>
 			<li {{#is pagename "in" "page_forum_list,page_forum_threads,page_forum_discussion"}}class="active open" {{/is}}>

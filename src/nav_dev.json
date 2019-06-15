@@ -737,7 +737,7 @@
 					"items": [
 						{
 							"title": "General",
-							"href": "page_inbox.html"
+							"href": "page_inbox_general.html"
 						},
 						{
 							"title": "Read",
