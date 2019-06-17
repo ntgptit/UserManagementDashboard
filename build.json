@@ -350,12 +350,12 @@
 									"{$config.path.node_modules}/datatables.net-autofill-bs4/css/autoFill.bootstrap4.css",
 									"{$config.path.node_modules}/datatables.net-buttons-bs4/css/buttons.bootstrap4.css",
 									"{$config.path.node_modules}/datatables.net-colreorder-bs4/css/colReorder.bootstrap4.css",
-									"{$config.path.node_modules}/datatables.net-fixedcolumns-bs4/css/fixedcolumns.bootstrap4.css",
-									"{$config.path.node_modules}/datatables.net-fixedheader-bs4/css/fixedheader.bootstrap4.css",
-									"{$config.path.node_modules}/datatables.net-keytable-bs4/css/keytable.bootstrap4.css",
+									"{$config.path.node_modules}/datatables.net-fixedcolumns-bs4/css/fixedColumns.bootstrap4.css",
+									"{$config.path.node_modules}/datatables.net-fixedheader-bs4/css/fixedHeader.bootstrap4.css",
+									"{$config.path.node_modules}/datatables.net-keytable-bs4/css/keyTable.bootstrap4.css",
 									"{$config.path.node_modules}/datatables.net-responsive-bs4/css/responsive.bootstrap4.css",
-									"{$config.path.node_modules}/datatables.net-rowgroup-bs4/css/rowgroup.bootstrap4.css",
-									"{$config.path.node_modules}/datatables.net-rowreorder-bs4/css/rowreorder.bootstrap4.css",
+									"{$config.path.node_modules}/datatables.net-rowgroup-bs4/css/rowGroup.bootstrap4.css",
+									"{$config.path.node_modules}/datatables.net-rowreorder-bs4/css/rowReorder.bootstrap4.css",
 									"{$config.path.node_modules}/datatables.net-scroller-bs4/css/scroller.bootstrap4.css",
 									"{$config.path.node_modules}/datatables.net-select-bs4/css/select.bootstrap4.css",
 									"{$config.path.src}/custom/plugins/datatables/datatables.styles.app.scss"
@@ -364,7 +364,7 @@
 									"{$config.path.node_modules}/datatables.net/js/jquery.dataTables.js",
 									"{$config.path.node_modules}/datatables.net-bs4/js/dataTables.bootstrap4.js",
 									"{$config.path.src}/custom/plugins/datatables/datatables.styles.app.js",
-									"{$config.path.node_modules}/datatables.net-autofill/js/dataTables.autofill.js",							
+									"{$config.path.node_modules}/datatables.net-autofill/js/dataTables.autoFill.js",							
 									"{$config.path.node_modules}/datatables.net-autofill-bs4/js/autoFill.bootstrap4.js",
 									"{$config.path.node_modules}/datatables.net-buttons/js/dataTables.buttons.js",
 									"{$config.path.node_modules}/datatables.net-buttons-bs4/js/buttons.bootstrap4.js",
@@ -372,19 +372,19 @@
 									"{$config.path.node_modules}/datatables.net-buttons/js/buttons.print.js",
 									"{$config.path.node_modules}/datatables.net-buttons/js/buttons.colVis.js",
 									"{$config.path.src}/custom/plugins/datatables/datatables.styles.buttons.app.js",
-									"{$config.path.node_modules}/datatables.net-colreorder/js/dataTables.colreorder.js",							
+									"{$config.path.node_modules}/datatables.net-colreorder/js/dataTables.colReorder.js",							
 									"{$config.path.node_modules}/datatables.net-colreorder-bs4/js/colReorder.bootstrap4.js",
-									"{$config.path.node_modules}/datatables.net-fixedcolumns/js/dataTables.fixedcolumns.js",							
+									"{$config.path.node_modules}/datatables.net-fixedcolumns/js/dataTables.fixedColumns.js",							
 									"{$config.path.node_modules}/datatables.net-fixedcolumns-bs4/js/fixedColumns.bootstrap4.js",
-									"{$config.path.node_modules}/datatables.net-fixedheader/js/dataTables.fixedheader.js",							
+									"{$config.path.node_modules}/datatables.net-fixedheader/js/dataTables.fixedHeader.js",							
 									"{$config.path.node_modules}/datatables.net-fixedheader-bs4/js/fixedHeader.bootstrap4.js",
-									"{$config.path.node_modules}/datatables.net-keytable/js/dataTables.keytable.js",							
+									"{$config.path.node_modules}/datatables.net-keytable/js/dataTables.keyTable.js",							
 									"{$config.path.node_modules}/datatables.net-keytable-bs4/js/keyTable.bootstrap4.js",
 									"{$config.path.node_modules}/datatables.net-responsive/js/dataTables.responsive.js",							
 									"{$config.path.node_modules}/datatables.net-responsive-bs4/js/responsive.bootstrap4.js",
-									"{$config.path.node_modules}/datatables.net-rowgroup/js/dataTables.rowgroup.js",							
+									"{$config.path.node_modules}/datatables.net-rowgroup/js/dataTables.rowGroup.js",							
 									"{$config.path.node_modules}/datatables.net-rowgroup-bs4/js/rowGroup.bootstrap4.js",
-									"{$config.path.node_modules}/datatables.net-rowreorder/js/dataTables.rowreorder.js",							
+									"{$config.path.node_modules}/datatables.net-rowreorder/js/dataTables.rowReorder.js",							
 									"{$config.path.node_modules}/datatables.net-rowreorder-bs4/js/rowReorder.bootstrap4.js",
 									"{$config.path.node_modules}/datatables.net-scroller/js/dataTables.scroller.js",							
 									"{$config.path.node_modules}/datatables.net-scroller-bs4/js/scroller.bootstrap4.js",
@@ -669,6 +669,17 @@
 						"bundle": {
 							"styles": "{$config.output}/css/miscellaneous/lightgallery/lightgallery.bundle.css",
 							"scripts": "{$config.output}/js/miscellaneous/lightgallery/lightgallery.bundle.js"
+						}
+					},
+					"smartvoice" : {
+						"src": {
+							"scripts": [
+								"{$config.path.src}/custom/plugins/smartvoice/smartvoice-config.js",
+								"{$config.path.src}/custom/plugins/smartvoice/smartvoice.js"
+							]
+						},
+						"bundle": {
+							"scripts": "{$config.output}/js/miscellaneous/lightgallery/smartvoice.bundle.js"
 						}
 					},
 					"reactions" : {
