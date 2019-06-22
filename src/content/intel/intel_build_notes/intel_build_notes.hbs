@@ -37,16 +37,57 @@
             </div>
         </div>
 
-		<h4 class="mb-g">
+        <h4 class="mb-g">
 			Build v {{version}} <!-- /* 4.0.0*/ -->
 			<small>
-				Initial release Phase 1
+				Improvements and bug fixes
+			</small>
+		</h4>
+		<ul class="nav d-block fs-md pl-3">
+			<li>
+				<span class="badge badge-success fw-n mr-1 width-3">*HBS</span> Added source files HTML
+			</li>
+			<li>
+				<span class="badge bg-fusion-600 fw-n mr-1 width-3">JS</span> Updated Jquery 3.3.1 to 3.4.1
+				<ul class="nav fs-b ml-3 pl-4 mb-2">
+					<li class="notes">
+						<strong>Notes:</strong> This change may impact some plugins on IE10, if you are seeing any issues with datatables for IE10, please revert back to jquery 3.3.1.
+					</li>	
+				</ul>
+			</li>
+			{{!-- <li>
+				<span class="badge bg-primary-600 fw-n mr-1 width-3">GULP</span> Added new command for creating app.get.colors.js from the generated CSS file
+			</li>
+			<li>
+				<span class="badge bg-primary-600 fw-n mr-1 width-3">GULP</span> Split CSS and JS into two separate tasks
+			</li> --}}
+			<li>
+				<span class="badge bg-primary-600 fw-n mr-1 width-3">BUILD</span> Fixed build.json file name issue for linux machines
+			</li>
+			<li>
+				<span class="badge bg-primary-800 fw-n mr-1 width-3">PLUG</span> Added npm dependencies:
+
+				<ul class="fs-b ml-3 mb-2">
+					<li>"@fullcalendar/bootstrap": "^4.2.0",</li>
+				</ul>
+			</li>
+			<li>
+				<span class="badge badge-warning fw-n mr-1">MISC</span> Updated <code>./src/img</code>, <code>./src/custom/plugins</code> directories
+			</li>
+		</ul>
+
+		<hr class="mt-4 mb-g">
+
+		<h4 class="mb-g">
+			Build v 4.0.0 <!-- /* 4.0.0*/ -->
+			<small>
+				Initial release
 			</small>
 		</h4>		
 
 		<ul class="nav d-block fs-md pl-3">
 			<li>
-				<span class="badge badge-success fw-n mr-1">*HBS</span> Added source files HTML
+				<span class="badge badge-success fw-n mr-1 width-3">*HBS</span> Added source files HTML
 				<ul class="nav fs-b ml-3 pl-4 mb-2">
 					<li class="notes">
 						<strong>Notes:</strong> Layouts are neatly organized into handlebar template partials <code>*.hbs</code>. Making it much easier to edit, remove or add new pages. There are three base layouts (main.hbs, auth.hbs, and alt.hbs)
@@ -54,25 +95,25 @@
 				</ul>
 			</li>
 			<li>
-				<span class="badge bg-fusion-600 fw-n mr-1">PCKG</span> Updated BS4 pack to v4.3
+				<span class="badge bg-fusion-600 fw-n mr-1 width-3">PCKG</span> Updated BS4 pack to v4.3
 			</li>
 			<li>
-				<span class="badge bg-fusion-600 fw-n mr-1">SCSS</span> Added source files for CSS
+				<span class="badge bg-fusion-600 fw-n mr-1 width-3">SCSS</span> Added source files for CSS
 			</li>
 			<li>
-				<span class="badge bg-fusion-200 fw-n mr-1">PRJT</span> Added Seed project (HTML Flavor)
+				<span class="badge bg-fusion-200 fw-n mr-1 width-3">PRJT</span> Added Seed project (HTML Flavor)
 			</li>
 			<li>
-				<span class="badge bg-fusion-200 fw-n mr-1">PRJT</span> Added Seed project (.Net Flavor)
+				<span class="badge bg-fusion-200 fw-n mr-1 width-3">PRJT</span> Added Seed project (.Net Flavor)
 			</li>
 			<li>
-				<span class="badge badge-primary fw-n mr-1">SCRP</span> Added package.json
+				<span class="badge badge-primary fw-n mr-1 width-3">SCRP</span> Added package.json
 			</li>
 			<li>
-				<span class="badge badge-primary fw-n mr-1">SCRP</span> Added _modules for {{app-name}} Core
+				<span class="badge badge-primary fw-n mr-1 width-3">SCRP</span> Added _modules for {{app-name}} Core
 			</li>
 			<li>
-				<span class="badge bg-primary-800 fw-n mr-1">PLUG</span> Added npm dependencies:
+				<span class="badge bg-primary-800 fw-n mr-1 width-3">PLUG</span> Added npm dependencies:
 
 				<ul class="fs-b ml-3 mb-2">
 					<li>"@fullcalendar/bootstrap": "^4.2.0",</li>
@@ -142,7 +183,7 @@
 				</ul>
 			</li>
 			<li>
-				<span class="badge bg-primary-800 fw-n mr-1">GULP</span> <strong>Added gulpfile.js with automated tasks: </strong>
+				<span class="badge bg-primary-800 fw-n mr-1 width-3">GULP</span> <strong>Added gulpfile.js with automated tasks: </strong>
 				<ul class="fs-b ml-3 mb-2">
 					<li>
 						compress images/*.css/*.js files
@@ -168,10 +209,10 @@
 				</ul>
 			</li>
 			<li>
-				<span class="badge badge-warning fw-n mr-1">MISC</span> Added .favicon
+				<span class="badge badge-warning fw-n mr-1 width-3">MISC</span> Added .favicon
 			</li>
 			<li>
-				<span class="badge badge-warning fw-n mr-1">MISC</span> Added IMG, VIDEO, and MISC directory for all media
+				<span class="badge badge-warning fw-n mr-1 width-3">MISC</span> Added IMG, VIDEO, and MISC directory for all media
 			</li>
 		</ul>
 

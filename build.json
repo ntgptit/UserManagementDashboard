@@ -8,7 +8,7 @@
 			"email": "drlantern@gotbootstrap.com",
 			"twitter": "codexlantern",
 			"avatar": "avatar-admin.png",
-			"version": "4.0.0",
+			"version": "4.0.1",
 			"bs4v": "4.3",
 			"logo": "logo.png",
 			"logo-m": "logo.png",
@@ -850,6 +850,20 @@
 									"scripts": "{$config.output}/js/miscellaneous/jqvmap/maps/jquery.vmap.usa.js"
 								}
 							}
+						}
+					},
+					"nestable" : {
+						"src": {
+							"styles":[
+								"{$config.path.src}/custom/plugins/nestable/nestable.scss"
+							],
+							"scripts": [
+								"{$config.path.node_modules}/nestable/jquery.nestable.js"
+							]
+						},
+						"bundle": {
+							"styles": "{$config.output}/css/miscellaneous/nestable/nestable.css",
+							"scripts": "{$config.output}/js/miscellaneous/nestable/nestable.js"
 						}
 					}
 				},

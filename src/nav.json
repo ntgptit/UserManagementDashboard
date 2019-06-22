@@ -668,8 +668,24 @@
 					"title": "Light Gallery",
 					"href": "miscellaneous_lightgallery.html",
 					"span": {
-						"class": "dl-ref label bg-primary-600 ml-2",
+						"class": "dl-ref label bg-primary-500 ml-2",
 						"text": "61 KB"
+					}
+				},	
+				{
+					"title": "SmartVoice",
+					"href": "miscellaneous_smartvoice.html",
+					"span": {
+						"class": "dl-ref label bg-primary-700 ml-2",
+						"text": "5 KB"
+					}
+				},	
+				{
+					"title": "Nestable",
+					"href": "miscellaneous_nestable.html",
+					"span": {
+						"class": "dl-ref label bg-primary-800 ml-2",
+						"text": "6 KB"
 					}
 				}
 			]

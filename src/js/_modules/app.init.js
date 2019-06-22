@@ -1168,3 +1168,11 @@ var initApp = (function(app) {
 	return app;
 	
 })({});
+
+/*
+	"Night is a bag that bursts with the golden dust of dawn..."
+
+	Oh wow, you actually opened this file and read it all the way though! Congrats! 
+	Please do drop me a line at @myplaneticket :)
+
+*/
