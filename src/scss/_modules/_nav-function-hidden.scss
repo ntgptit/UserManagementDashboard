@@ -51,7 +51,18 @@
 				color:$header-btn-active-color !important;
 			}
 		}
+
+		&.nav-function-fixed {
+			.page-sidebar {
+				/* apply invisible hit area to reveal nav */
+				&:after {
+					left: $nav-hidden-visiblity;
+				}
+			}
+		}
 	}
+
+
 
 	.nav-function-hidden.header-function-fixed:not(.nav-function-top) {
 		.page-header {
