@@ -71,7 +71,8 @@
 				},
 				{
 					"title": "Different Flavors",
-					"href": "info_app_flavors.html"
+					"href": "info_app_flavors.html",
+					"showOnSeed": false
 				}
 			]
 		},
