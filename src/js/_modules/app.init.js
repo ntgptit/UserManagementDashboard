@@ -988,7 +988,10 @@ var initApp = (function(app) {
 							$('head').append(mytheme);
 						}
 
-						initApp.saveSettings();
+						if ( $(this).attr('data-themesave') != undefined ) {
+
+							initApp.saveSettings();
+						}
 
 						break;
 
