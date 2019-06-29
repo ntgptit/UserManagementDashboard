@@ -1085,28 +1085,6 @@
 						"styles": "{$config.output}/css/themes/cust-theme-13.css"
 						
 					}
-				},
-				"theme-14": {
-					"src": {
-						"styles": [
-							"{$config.path.src}/scss/_themes/cust-theme-14.scss"
-						]
-					},
-					"bundle": {
-						"styles": "{$config.output}/css/themes/cust-theme-14.css"
-						
-					}
-				},
-				"theme-15": {
-					"src": {
-						"styles": [
-							"{$config.path.src}/scss/_themes/cust-theme-15.scss"
-						]
-					},
-					"bundle": {
-						"styles": "{$config.output}/css/themes/cust-theme-15.css"
-						
-					}
 				}
 			}			
 		}			
