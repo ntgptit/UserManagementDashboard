@@ -83,7 +83,8 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
 }
 a[target]{
 	font-weight:500;
-	border-bottom: 1px dashed $primary-300;
+    text-decoration-skip-ink: auto;
+    text-decoration: underline !important;
 }
 /* btn active */
 /*.btn.active, 
