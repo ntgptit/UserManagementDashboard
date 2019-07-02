@@ -19,6 +19,7 @@
 			"layoutSettings": true,
 			"chatInterface": true,
 			"shortcutMenu": true,
+			"appLayoutShortcut": true,
 			"appHeader": true,
 			"appFooter": true,
 			"appSidebar": true

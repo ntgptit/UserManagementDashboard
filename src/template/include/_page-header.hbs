@@ -3,6 +3,7 @@
 	<!-- we need this logo when user switches to nav-function-top -->
 	{{> include/_logo }}
 
+	{{#if appLayoutShortcut}}
 	<!-- DOC: nav menu layout change shortcut -->
 	<div class="hidden-md-down dropdown-icon-menu position-relative">
 		<a href="#" class="header-btn btn js-waves-off" data-action="toggle" data-class="nav-function-hidden" title="Hide Navigation">
@@ -21,6 +22,7 @@
 			</li>
 		</ul>
 	</div>
+	{{/if}}
 		
 	<!-- DOC: mobile button appears during mobile width -->
 	<div class="hidden-lg-up">
