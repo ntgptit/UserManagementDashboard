@@ -81,7 +81,7 @@ a { text-decoration: none !important }
 a, area, button, [role="button"], input, label, select, summary, textarea {
     touch-action: manipulation;
 }
-a[target]{
+a[target]:not(.btn){
 	font-weight:500;
     text-decoration-skip-ink: auto;
     text-decoration: underline !important;
