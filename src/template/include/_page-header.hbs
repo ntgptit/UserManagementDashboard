@@ -48,12 +48,14 @@
 			</a>
 		</div>
 
+		{{#if layoutSettings}}
 		<!-- app settings -->
 		<div class="hidden-md-down">
 			<a href="#" class="header-icon" data-toggle="modal" data-target=".js-modal-settings">
 				<i class="fal fa-cog"></i>
 			</a>
 		</div>	
+		{{/if}}
 
 		<!-- app shortcuts -->
 		<div>
@@ -65,12 +67,14 @@
 			</div>
 		</div>
 
+		{{#if chatInterface}}
 		<!-- app message -->
 		<a href="#" class="header-icon" data-toggle="modal" data-target=".js-modal-messenger">
 			<i class="fal fa-globe"></i>
 			<span class="badge badge-icon">!</span>
 		</a>
-			
+		{{/if}}
+
 		<!-- app notification -->
 		<div>
 			<a href="#" class="header-icon" data-toggle="dropdown" title="You got 11 notifications">

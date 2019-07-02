@@ -4,6 +4,8 @@
 		"data" : {
 			"app": "SmartAdmin",
 			"app-name": "SmartAdmin WebApp",
+			"app-flavor": "SmartAdmin WebApp",
+			"app-flavor-subscript": "",
 			"user": "Dr. Codex Lantern",
 			"email": "drlantern@gotbootstrap.com",
 			"twitter": "codexlantern",
@@ -13,7 +15,13 @@
 			"logo": "logo.png",
 			"logo-m": "logo.png",
 			"copyright": "2019 © SmartAdmin by&nbsp;<a href='https://www.gotbootstrap.com' class='text-primary fw-500' title='gotbootstrap.com' target='_blank'>gotbootstrap.com</a>",
-			"copyright-inverse": "2019 © SmartAdmin by&nbsp;<a href='https://www.gotbootstrap.com' class='text-white opacity-40 fw-500' title='gotbootstrap.com' target='_blank'>gotbootstrap.com</a>"
+			"copyright-inverse": "2019 © SmartAdmin by&nbsp;<a href='https://www.gotbootstrap.com' class='text-white opacity-40 fw-500' title='gotbootstrap.com' target='_blank'>gotbootstrap.com</a>",
+			"layoutSettings": true,
+			"chatInterface": true,
+			"shortcutMenu": true,
+			"appHeader": true,
+			"appFooter": true,
+			"appSidebar": true
 		},
 		"compile": {
 			"jsUglify": false,
